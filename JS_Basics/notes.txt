@@ -1,0 +1,32 @@
+1) How JavaScript is the Dynamically-typed language?
+
+    - JavaScript is a dynamically typing language. 
+    When you declare a variable, you do not need to specify what type this variable is. 
+    Javascript engine infers what type this variable is based on the value assigned to it 
+    at the run time.
+
+    - Dynamically typed means the value's type is enforced, but the variable simply represents
+    any value of any type.
+
+    x = 12345;    // number
+    x = "string"; // string
+    x = { key: "value" }; // object
+    y = 123 + x; // error or implicit conversion must take place.
+
+
+2) Are semicolons mandatory in JavaScript statements?
+
+    -> No, JavaScript semicolons are optional.
+    This is all possible because JavaScript does not strictly require semicolons. 
+    When there is a place where a semicolon was needed, it adds it behind the scenes. 
+    The process that does this is called Automatic Semicolon Insertion.
+
+    - Semicolons are mainly used to make the easy to read the code.
+    - To make the code cleaner.
+    - for e.g. if you have the statements like 
+    var num = 2 var n = 100
+    - then if you don't use the semicolon then it will treat this line 
+    as the single line. 
+
+
+
