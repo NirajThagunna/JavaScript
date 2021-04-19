@@ -1,0 +1,7 @@
+Loops are used to execute the same block of code again and again, as long as a certain condition
+is met.
+
+The JavaScript loops are used to iterate the piece of code using for, while, do while or 
+for-in loops. 
+It makes the code compact.
+It is mostly used in array.

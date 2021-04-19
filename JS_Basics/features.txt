@@ -1,0 +1,10 @@
+1) JavaScript is a programming language that adds interactivity to your website. 
+This happens in games, in the behavior of responses when buttons are pressed or with data
+entry on forms; with dynamic styling; with animation, etc.
+
+2) JavaScript ("JS" for short) is a full-fledged dynamic programming language that can add 
+interactivity to a website. 
+It was invented by Brendan Eich (co-founder of the Mozilla project, the Mozilla Foundation, 
+and the Mozilla Corporation).
+
+3) JavaScript is one of the most popular modern web technologies.

@@ -25,6 +25,8 @@ console.log(str3);
 
 // Comparing two strings
 // 2. localComapre()
+// The localeCompare() method returns a number indicating whether a reference string comes 
+// before, or after, or is the same as the given string in sort order.
 // exact matching = 0
 // str1 < str2 = -1
 // str1 > str2 = 1
