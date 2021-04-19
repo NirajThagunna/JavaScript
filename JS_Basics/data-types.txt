@@ -1,0 +1,2 @@
+1. JavaScript is a loosely typed language.
+2. JavaScript is a Dynamically typed language.

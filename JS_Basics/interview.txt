@@ -1,0 +1,17 @@
+1) What is the difference between == and === opeartors?
+
+    -> == means it will check the same value only not care about the data type = value only.
+    === maens it will check for the both value and data type - value + data type.
+
+2) What is NaN property in JavaScript?
+
+    -> NaN = Not a Number -> It indicates a value which is not a legal number.
+
+3) Reference comparison.
+
+4) Explain the scope and scope chain in JavaScript?
+
+    -> Scope 
+        1. Global
+        2. Local or Function Scope
+        3. Block Scope - related to let and const keywords
