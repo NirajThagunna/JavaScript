@@ -1,0 +1,16 @@
+DOM -> Document Object Model
+-> document is an object of window.
+-> that's why window.document is same as the document
+-> DOM is the platform and language in-dependent.
+
+-> The document object represents the whole html document.
+-> when the html document is loaded in the browser, it becomes a document object.
+-> document is the root element that represents the html document.
+-> It has properties and methods.
+-> By the help of document object, we can add dynamic content to our web page.
+
+-> innerText property can be used to write the dynamic text on the html document. 
+Here, text will not be interpreted as html but a normal text.
+used in web pages like validation on web pages, validation etc....
+
+

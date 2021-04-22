@@ -1,0 +1,17 @@
+Browser Object Model :
+- The BOM is used to interact with the browser.
+- The default Object of browser is window. you can call all the functions of the window object 
+by using window or directly.
+
+-> The document object represents an html document. It forms DOM.
+
+-> window objects
+    - document
+    - history
+    - screen
+    - navigator
+    - location
+
+
+
+    
