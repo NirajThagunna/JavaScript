@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM attributes</title>
+</head>
+<body>
+
+    <h1>DOM attributes</h1>
+
+    <!-- setAttribute -->
+    <h3><a id="link" href="https://www.google.com">google</a></h3>
+
+    <button onclick="changeLink()">Click Me</button>
+
+    <h1 id="heading" style="color: red;">Welcome to the JavaScript World!</h1>
+
+    <button onclick="Okay()">Okay</button>
+
+
+    <script>
+        // element.setAttribute(attributeName, attributeValue) 
+        
+        changeLink = () => {
+            let link = document.getElementById("link");
+            // console.log(link);
+            link.setAttribute("href", "https://www.github.com");
+            link.innerHTML = "GitHub";
+        }
+
+        // The getAttribute()
+        // this method is used to get the value of an attribute of the 
+        // particular element. If the attribute exists, it returns the string representing 
+        // the value of the corresponding attribute. If the corresponding attribute does not
+        // exist, it will return an empty string or null.
+
+        // element.getAttribute(attributename)  
+
+        Okay = () => {
+            let heading = document.getElementById("heading");
+            console.log(heading);
+            let style = heading.getAttribute("style");
+            console.log(style);
+            console.log(heading.innerHTML = "Java");
+        }
+
+    </script>
+    
+</body>
+</html>

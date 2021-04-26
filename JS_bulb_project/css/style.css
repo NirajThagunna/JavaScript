@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+img:hover {
+    cursor: pointer;
+}
