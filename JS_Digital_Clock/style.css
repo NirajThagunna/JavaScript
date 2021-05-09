@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock {
+    font-size: 80px;
+    color: rgb(53, 211, 5);
+}
