@@ -5,5 +5,8 @@
 ## Fundamentals of JavaScript
 
 - Data Types
-  ↓
 - Variables and Comments
+- Operators
+- let, const and var keyword
+- String
+- Template literals
