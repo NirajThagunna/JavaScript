@@ -10,3 +10,5 @@
 - let, const and var keyword
 - String
 - Template literals
+- Decision Making - Control Flow - if-else statement
+- Type Conversion and Coercion
