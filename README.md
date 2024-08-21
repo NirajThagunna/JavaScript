@@ -12,3 +12,5 @@
 - Template literals
 - Decision Making - Control Flow - if-else statement
 - Type Conversion and Coercion
+- Equality Operators == vs. ===
+- Strict and Loose equality

@@ -79,3 +79,42 @@ if (height) {
 }
 
 console.log(height);
+
+/*
+Equality Operators == vs. ===
+*/
+
+// Assignment Operator
+const age1 = "18";
+
+// Tightly or strict equality - No type coercion - check for both the values and type of the values
+if (age1 === 18) console.log("You just became an adult: D!");
+
+// Loosely or loose equality - Type coercion - check for both the values and type of the values and perform type coercion if the types are not same
+if (age1 == 18) console.log("You just became an adult: D!");
+
+// always better to use tightly or strict equality
+
+/////////////////////////////////////////////////
+// Prompt function to take an input from a user
+/////////////////////////////////////////////////
+
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+  console.log("Cool 23 is an amazing number!");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number");
+} else if (favourite === 10) {
+  console.log("10 is also a cool number");
+} else {
+  console.log("Number is not 23 or 7");
+}
+
+// Strict or tightly not equality
+if (favourite !== 23) console.log("Okay, got it!");
+
+// Loose inequality
+if (favourite != "23") console.log("Ohh, Noooo.... got it!");
