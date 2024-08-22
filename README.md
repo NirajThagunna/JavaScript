@@ -19,3 +19,8 @@
 - Expression: any valid unit of code that resolves to a value or produces a value. It can be a number or string, or a function call that returns a value.
 - Statement: an instruction that performs an action. e.g. let sum = num + 5; // Statement and num + 5 is an expression. It may contain expressions, but its main purpose is to control the flow of the program, rather than to produce a value.
 - The conditional or ternary operator
+
+## Intermediate JavaScript
+
+- Strict mode - "use strict": error-checked variant. Strict mode makes it easier to write "secure" JavaScript by catching common coding errors and throwing exceptions. It Prevents undeclared variables and reserved keywords.
+- Function - Function Declaration and Function Expression
